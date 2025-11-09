@@ -9,7 +9,7 @@ public class Person extends Memory {
     // overriding the superclass's methods
     @Override 
     public void lost() {
-        System.out.println(name + " (a" + relationship + ") was lost...");
+        System.out.println(name + " (a " + relationship + ") was lost...");
     }
 
     @Override
