@@ -1,6 +1,6 @@
 # 🌌 Lost & Found Universe  
 *A cosmic tool for navigating forgotten memories, missing items, and emotional gaps.*
-#### By Bay, Cantos, & Larga 
+
 ---
 
 ## 🪐 Overview  
@@ -34,3 +34,4 @@ Every person carries a universe within — filled with people who shaped them, m
 
 ✨ *Rediscover your universe, one star at a time.* ✨
 
+*Created by Bay, Cantos, & Larga* 
