@@ -1,6 +1,6 @@
 # 🌌 Lost & Found Universe  
 *A cosmic tool for navigating forgotten memories, missing items, and emotional gaps.*
-####By Bay, Cantos, & Larga
+#### By Bay, Cantos, & Larga 
 ---
 
 ## 🪐 Overview  
