@@ -28,6 +28,8 @@ Lost & Found Universe is ideal for:
 - Users who wish to reconnect with past experiences  
 - Anyone wanting an organized way to document moments, people, or feelings
 
+---
+
 ## ⭐ Why Use Lost & Found Universe?  
 Exploring one’s inner world should be an empowering experience.  
 Every person carries a universe within — filled with people who shaped them, moments that strengthened them, and memories that taught them. Lost & Found Universe turns these scattered fragments into a guided, meaningful journey, helping users explore the galaxies of their past with clarity and intention.
