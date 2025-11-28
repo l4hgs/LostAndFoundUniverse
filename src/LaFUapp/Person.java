@@ -9,14 +9,14 @@ public class Person extends Memory {
     // overriding the superclass's methods
     @Override 
     public void lost() {
-        System.out.println(name + " (a " + relationship + ") was lost...");
+        System.out.println("\n" + name + " (" + relationship + ") was lost...");
     }
 
     @Override
     public void found() {
         // status is inherited and set as default to "Lost" in the superclass
         status = "Found";
-        System.out.println("You've found " + name + " again. A connection reborn.");
+        System.out.println("\nYou've found " + name + " again. A connection reborn.");
     }
 
     @Override

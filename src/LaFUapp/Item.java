@@ -8,13 +8,13 @@ public class Item extends Memory{
 
     @Override 
     public void lost() {
-        System.out.println(name + " was lost at " + locationLost + "...");
+        System.out.println("\n" + name + " was lost at " + locationLost + "...");
     }
 
     @Override
     public void found() {
         status = "Found";
-        System.out.println("You've found " + name + " again, even if it's lost.");
+        System.out.println("\nYou've found " + name + " again, even if it's lost.");
     }
 
     @Override
