@@ -23,21 +23,17 @@ Through guided prompts and categorized memory entries, the program encourages us
 ## 🌠 Features Included
 ✔ Memory categorization
 Lost items, people, and moments in time
-
 Custom descriptions and contextual details
 
 ✔ Status tracking
 Mark memories as Found
-
 Delete specific entries
-
-View universal statistics
+View your universe's statistics
 
 ✔ Prompt generator
 Provides reflective questions such as:
-
-"What is something small you lost but still remember clearly?"
-
+"If you could find one lost item today, regardless of value, what would it be?"
+"Describe a time you felt completely 'found' or at peace."
 "Who is a person you lost touch with and what is the last thing you remember them saying?"
 
 </br>
