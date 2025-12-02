@@ -14,19 +14,19 @@ Through guided prompts and categorized memory entries, the program encourages us
 
 ## 🌠 Features Included
 ### ✔ Memory categorization <br> 
-      ✦ Lost items, people, and moments in time <br>
-      ✦ Custom descriptions and contextual details <br>
+   ✦ Lost items, people, and moments in time <br>
+   ✦ Custom descriptions and contextual details <br>
 
 ### ✔ Status tracking <br> 
-      ✦ Mark memories as Found <br>
-      ✦ Delete specific entries <br>
-      ✦ View your universe's stats <br>
+   ✦ Mark memories as Found <br>
+   ✦ Delete specific entries <br>
+   ✦ View your universe's stats <br>
 
 ### ✔ Prompt generator <br>
    Provides reflective questions such as: <br>
-      ✦ "If you could find one lost item today, regardless of value, what would it be?" <br>
-      ✦ "Describe a time you felt completely 'found' or at peace." <br>
-      ✦ "Who is a person you lost touch with and what is the last thing you remember them saying?" <br>
+   ✦ "If you could find one lost item today, regardless of value, what would it be?" <br>
+   ✦ "Describe a time you felt completely 'found' or at peace." <br>
+   ✦ "Who is a person you lost touch with and what is the last thing you remember them saying?" <br>
 
 </br>
 
