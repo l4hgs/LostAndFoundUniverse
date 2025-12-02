@@ -91,14 +91,15 @@ To run the "Lost & Found Universe" console application, you will need the follow
 
 ### 🔧 Compilation and Execution
 
-1.  **Compile:** Compile all `.java` files (`Main.java`, `MemoryManager.java`, `Memory.java`, `Person.java`, `Item.java`, `Time.java`) using the Java compiler:
+1.  **Compile:** Compile all `.java` files (`Main.java`, `MemoryManager.java`, `Memory.java`, `Person.java`, `Item.java`, `Time.java`) using the Java compiler: <br>
     ```bash
     javac *.java
     ```
-2.  **Run:** Execute the main class:
+2.  **Run:** Execute the main class: <br>
     ```bash
     java Main
     ```
+    
 </br>
 
 ## 📸 Sample Output
