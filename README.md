@@ -163,7 +163,7 @@ We extend our deepest gratitude to our CS 211: Object‑Oriented Programming ins
 
 To our classmates and friends, thank you for the shared laughter, support, and encouragement throughout the journey. Your presence made this project feel less like a requirement and more like a collaborative exploration.
 
-To our team, whose commitment to our growth and self-discovery made this project possible. Our efforts and dedication made us the brightest part of this project.
+To our team, whose commitment to our growth and self-discovery made this project possible. Our efforts and dedication made us the brightest stars of this project.
 
 Finally, to all the people, memories, and moments that remind us how deeply human it is to lose, find, and rediscover—this project is for you.
 
