@@ -3,12 +3,6 @@
 <h1>✨🌌 L O S T &nbsp; A N D &nbsp; F O U N D &nbsp; U N I V E R S E 🌌✨</h1><br>
 <i><b> A cosmic tool for navigating forgotten memories, missing items, and emotional gaps.</b> </i>
 
-<br> <br>
-<b> CS 2105 </b> <br>
-Claire Nicole Bay <br>
-Alodivinno Ricco Cantos <br>
-Erika Ysobelle Larga
-
 </div>
 
 ## 🪐 **Overview**
@@ -172,6 +166,6 @@ Finally, to all the people, memories, and moments that remind us how deeply huma
 
 <div align="center">
 Created by Claire Nicole Bay, Alodivinno Ricco Cantos, & Erika Ysobelle Larga <br>
-🌟 BSCS Students — 2025 🌟
+🌟 BSCS 2105 Students — 2025 🌟
 
 </div>
