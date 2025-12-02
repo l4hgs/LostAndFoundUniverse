@@ -14,15 +14,13 @@ public class MemoryManager {
         m.lost();
         totalLost++;
     }
-
     // .isEmpty() checks the ArrayList
     public void displayAll() {
         if (memories.isEmpty()) {
             System.out.println("No memories recorded yet.");
             return;
         }
-
-        System.out.println("=== All Memories ===");
+        System.out.println("\n=== All Memories ===");
         for (Memory m : memories) {
             // calls display() of each subclass entries (polymorphism) 
             m.display();
@@ -54,18 +52,15 @@ public class MemoryManager {
     public void deleteMemory(String name) {
         // Iterate using a standard loop so we can safely remove items and update counters.
         boolean foundAndDeleted = false;
-        
         for (int i = 0; i < memories.size(); i++) {
             Memory m = memories.get(i);
-            
             if (m.name.equalsIgnoreCase(name)) {
-                // *** UPDATE 3: Adjust counters based on the memory's current status ***
+                // Adjust counters based on the memory's current status
                 if (m.getStatus().equals("Lost")) {
                     totalLost--;
                 } else { // Status must be "Found"
                     totalFound--;
                 }
-                
                 memories.remove(i);
                 System.out.println(name + " has been deleted from the universe.");
                 foundAndDeleted = true;
@@ -73,12 +68,10 @@ public class MemoryManager {
                 break;
             }
         }
-        
         if (!foundAndDeleted) {
             System.out.println(name + " does not exist in the universe.");
         }
     }
-
     // for case 6
     public void displayUniverseStats() {
         System.out.println("\nUNIVERSAL INTROSPECTION");
