@@ -4,7 +4,7 @@
 <i><b> A cosmic tool for navigating forgotten memories, missing items, and emotional gaps.</b> </i>
 
 <br> <br>
-CS 2105 <br>
+<b> CS 2105 </b> <br>
 Claire Nicole Bay <br>
 Alodivinno Ricco Cantos <br>
 Erika Ysobelle Larga
@@ -172,7 +172,7 @@ Finally, to all the people, memories, and moments that remind us how deeply huma
 </br>
 
 <div align="center">
-Created by Claire Nicole Bay, Alodivinno Ricco Cantos, & Erika Ysobelle Larga
+Created by Claire Nicole Bay, Alodivinno Ricco Cantos, & Erika Ysobelle Larga <br>
 🌟 BSCS Students — 2025 🌟
 
 </div>
