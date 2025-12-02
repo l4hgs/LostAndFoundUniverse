@@ -6,7 +6,7 @@
 </div>
 
 ## 🪐 **Overview**
-Lost & Found Universe is an interactive journaling-inspired console system designed to help users map out meaningful parts of their past. It serves as a reflective space to help users document and revisit the memories they've made with people they’ve crossed paths with, the moments that shaped them, and the items or connections that may no longer be present in their lives.
+Lost and Found Universe is an interactive journaling-inspired console system designed to help users map out meaningful parts of their past. It serves as a reflective space to help users document and revisit the memories they've made with people they’ve crossed paths with, the moments that shaped them, and the items or connections that may no longer be present in their lives.
 
 Through guided prompts and categorized memory entries, the program encourages users to explore the “lost memories” within their personal universe, making it easier to revisit moments that may have faded over time and bring clarity to what may otherwise remain unnoticed.
 
@@ -30,7 +30,7 @@ Through guided prompts and categorized memory entries, the program encourages us
 
 </br>
 
-## 💎 Object-oriented Principles for "Lost & Found Universe"
+## 💎 Object-oriented Principles
 
 This project utilizes key **Object-Oriented Programming (OOP) principles** in Java to manage different types of "memories" (**Person**, **Item**, **Time**).
 
@@ -64,9 +64,9 @@ Polymorphism (meaning "many forms") is demonstrated in two main ways: **Method O
 
   * **Polymorphic Collection:** The `memories` `ArrayList` in **MemoryManager** stores objects of the generic `Memory` type:
 
-    ```java
+```java
     private ArrayList<Memory> memories = new ArrayList<>();
-    ```
+```
 
     This single collection can hold instances of any of the subclasses (`Person`, `Item`, or `Time`). When `manager.displayAll()` is called, the line `m.display()` executes the correct, overridden `display()` method for the *actual* type of the object at runtime, enabling flexible, dynamic behavior.
 
@@ -169,13 +169,13 @@ Every person carries a universe within, filled with people who shaped them, mome
 
 This project was brought to life through a constellation of guidance, patience, and support that helped turn an idea into an entire universe.
 
-We extend our deepest gratitude to our CS 211: Object‑Oriented Programming instructor, **Ma’am Fatima Marie Agdon*, whose steady encouragement and insightful lectures shaped the direction of this project. 
+We extend our deepest gratitude to our CS 211: Object‑Oriented Programming instructor, *Ma’am Fatima Marie Agdon*, whose steady encouragement and insightful lectures shaped the direction of this project. 
 
-To our classmates and friends, thank you for the shared laughter, support, and encouragement throughout the journey. Your presence made this project feel less like a requirement and more like a collaborative exploration.
+To our *classmates and friends*, thank you for the shared laughter, support, and encouragement throughout the journey. Your presence made this project feel less like a requirement and more like a collaborative exploration.
 
-To our team, whose commitment to our growth and self-discovery made this project possible. Our efforts and dedication made us the brightest stars of this project.
+To *our team*, whose commitment to our growth and self-discovery made this project possible. Our efforts and dedication made us the brightest stars of this project.
 
-Finally, to all the people, memories, and moments that remind us how deeply human it is to lose, find, and rediscover—this project is for you.
+Finally, to all the people, memories, and moments that remind us how deeply human it is to lose, find, and rediscover, this project is for you.
 
 **🌌 Thank you for helping us build a universe worth exploring**
 
