@@ -3,7 +3,7 @@
 <h1>✨🌌 L O S T &nbsp; A N D &nbsp; F O U N D &nbsp; U N I V E R S E 🌌✨</h1><br>
 <i>A cosmic tool for navigating forgotten memories, missing items, and emotional gaps.</i>
 
-<br><br>
+<br>
 
 CS 2105 <br>
 Claire Nicole Bay <br>
@@ -11,7 +11,6 @@ Alodivinno Ricco Cantos <br>
 Erika Ysobelle Larga
 
 </div>
-</br>
 
 ## 🪐 **Overview**
 Lost & Found Universe is an interactive journaling-inspired console system designed to help users map out meaningful parts of their past. It serves as a reflective space to help users document and revisit the memories they've made with people they’ve crossed paths with, the moments that shaped them, and the items or connections that may no longer be present in their lives.
@@ -103,7 +102,7 @@ To run the "Lost & Found Universe" console application, you will need the follow
 </br>
 
 ## 📸 Sample Output
-    ```bash
+   ```bash
 =========================================
    *       .    ____   ____   *     *      
      .        / ____| / ___|       .
@@ -127,8 +126,7 @@ Select Memory Type:
 [2] Item
 [3] Time
 Choice:
-
-    ```
+```
 
 </br>
 
