@@ -152,7 +152,6 @@ Every person carries a universe within, filled with people who shaped them, mome
 
 ✨ *Rediscover your universe, one star at a time.* ✨
 
-
 </br>
 
 ## 📜 Acknowledgement
