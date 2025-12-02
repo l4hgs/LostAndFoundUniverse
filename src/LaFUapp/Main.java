@@ -8,9 +8,6 @@ public class Main {
         MemoryManager manager = new MemoryManager();
         PromptGenerator promptGenerator = new PromptGenerator();
 
-        System.out.println("\nToday's Prompt:\n");
-        System.out.println("\"" + promptGenerator.getRandomPrompt() + "\"");
-
         int choice = 0; // declared outside of do-while so while block can read variable choice
         
         do {
@@ -25,6 +22,8 @@ public class Main {
             System.out.println("==========================================");
             System.out.println(" L O S T   &   F O U N D   U N I V E R S E   ");
             System.out.println("------------------------------------------");
+            System.out.println("\nToday's Prompt:");
+            System.out.println("\"" + promptGenerator.getRandomPrompt() + "\"\n");
             System.out.println("        [1] Add a Lost Memory");
             System.out.println("        [2] View All Memories");
             System.out.println("        [3] Mark Memory as Found");
