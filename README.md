@@ -3,8 +3,7 @@
 <h1>✨🌌 L O S T &nbsp; A N D &nbsp; F O U N D &nbsp; U N I V E R S E 🌌✨</h1><br>
 <i><b> A cosmic tool for navigating forgotten memories, missing items, and emotional gaps.</b> </i>
 
-<br> 
-
+<br> <br>
 CS 2105 <br>
 Claire Nicole Bay <br>
 Alodivinno Ricco Cantos <br>
