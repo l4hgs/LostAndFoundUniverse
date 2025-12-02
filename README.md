@@ -136,18 +136,16 @@ Choice:
 </br>
 
 ## 📁 Project Structure
+```bash
 │── Main.java
-
 │── Memory.java
-
 │── MemoryManager.java
-
 │── Person.java
 │── Item.java
 │── Event.java
 │── PromptGenerator.java
 └── README.md
-
+```
 </br>
 
 ## ⭐ Why Use Lost & Found Universe?
