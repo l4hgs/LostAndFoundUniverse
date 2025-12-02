@@ -11,6 +11,8 @@ Alodivinno Ricco Cantos <br>
 Erika Ysobelle Larga
 
 </div>
+</br>
+
 ## 🪐 **Overview**
 Lost & Found Universe is an interactive journaling-inspired console system designed to help users map out meaningful parts of their past. It serves as a reflective space to help users document and revisit the memories they've made with people they’ve crossed paths with, the moments that shaped them, and the items or connections that may no longer be present in their lives.
 
@@ -105,7 +107,7 @@ To run the "Lost & Found Universe" console application, you will need the follow
 
 ## 📸 Sample Output
     ```bash
-   =========================================
+=========================================
    *       .    ____   ____   *     *      
      .        / ____| / ___|       .
              | |      \___ \          .
@@ -135,8 +137,11 @@ Choice:
 
 ## 📁 Project Structure
 │── Main.java
+
 │── Memory.java
+
 │── MemoryManager.java
+
 │── Person.java
 │── Item.java
 │── Event.java
