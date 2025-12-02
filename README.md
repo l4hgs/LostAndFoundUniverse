@@ -72,6 +72,29 @@ Polymorphism (meaning "many forms") is demonstrated in two main ways: **Method O
 
 </br>
 
+## 📁 Project Structure
+```bash
+📁src/
+└── 📁LaFU App
+    │── Main.java
+    │── Memory.java
+    │── MemoryManager.java
+    │── Person.java
+    │── Item.java
+    │── Event.java
+    │── PromptGenerator.java
+    └── README.md
+```
+• `Main.java` - The entry point of the program. It displays the menu, handles user input, and controls the overall flow of the Lost and Found Universe. <br>
+• `Memory.java` - The abstract parent class of all memory types. It represents the core blueprint of every memory, along with its attributes and abstract methods. <br>
+• `MemoryManager.java` - The heart of the program system. It handles the storage, management, and organization of all memory entries and functions. <br>
+• `Person.java` - A subclass of Memory that represents a person you've lost touch with. <br>
+• `Item.java` - A subclass of Memory that represents an object you've lost. <br>
+• `Event.java` - A subclass of Memory that represents a memory tied to a certain event or period in time. <br>
+• `PromptGenerator.java` - Holds all the possible prompts for diary entry and returns a single prompt at random. <br>
+
+</br>
+
 ## ⚙️ System Requirements
 
 To run the "Lost & Found Universe" console application, you will need the following:
@@ -107,37 +130,31 @@ To run the "Lost & Found Universe" console application, you will need the follow
  L O S T   &   F O U N D   U N I V E R S E
 ------------------------------------------
 Today's Prompt:
-"If you could go back to one 'lost 
-time,' when would it be and why?"
+"Write about a person you found that changed your path, even if briefly."
 
 [1] Add Memory
 [2] View All Memories
 [3] Mark as Found
 [4] Delete Memory
 [5] Exit
+------------------------------------------
+Choose: 1
 
-Enter choice: 1
+--- Add a Lost Memory ---
+Choose a category:
+1. Person
+2. Item
+3. Event
+Choose: 1
+Name: TWICE
+Description: Made me feel loved and feel so special
+Tag: Longing
+Relationship: Best Friends
 
-Select Memory Type:
-[1] Person
-[2] Item
-[3] Time
-Choice:
+TWICE (Best Friends) was lost...
+
 ```
 
-</br>
-
-## 📁 Project Structure
-```bash
-│── Main.java
-│── Memory.java
-│── MemoryManager.java
-│── Person.java
-│── Item.java
-│── Event.java
-│── PromptGenerator.java
-└── README.md
-```
 </br>
 
 ## ⭐ Why Use Lost & Found Universe?
