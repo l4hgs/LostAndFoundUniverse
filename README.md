@@ -14,19 +14,19 @@ Through guided prompts and categorized memory entries, the program encourages us
 
 ## 🌠 Features Included
 ### ✔ Memory categorization <br> 
-   Lost items, people, and moments in time <br>
-   Custom descriptions and contextual details <br>
+      ✦ Lost items, people, and moments in time <br>
+      ✦ Custom descriptions and contextual details <br>
 
 ### ✔ Status tracking <br> 
-   Mark memories as Found <br>
-   Delete specific entries <br>
-   View your universe's statistics <br>
+      ✦ Mark memories as Found <br>
+      ✦ Delete specific entries <br>
+      ✦ View your universe's stats <br>
 
 ### ✔ Prompt generator <br>
    Provides reflective questions such as: <br>
-   "If you could find one lost item today, regardless of value, what would it be?" <br>
-   "Describe a time you felt completely 'found' or at peace." <br>
-   "Who is a person you lost touch with and what is the last thing you remember them saying?" <br>
+      ✦ "If you could find one lost item today, regardless of value, what would it be?" <br>
+      ✦ "Describe a time you felt completely 'found' or at peace." <br>
+      ✦ "Who is a person you lost touch with and what is the last thing you remember them saying?" <br>
 
 </br>
 
@@ -82,8 +82,7 @@ Polymorphism (meaning "many forms") is demonstrated in two main ways: **Method O
     │── Person.java
     │── Item.java
     │── Event.java
-    │── PromptGenerator.java
-    └── README.md
+    └── PromptGenerator.java
 ```
 • `Main.java` - The entry point of the program. It displays the menu, handles user input, and controls the overall flow of the Lost and Found Universe. <br>
 • `Memory.java` - The abstract parent class of all memory types. It represents the core blueprint of every memory, along with its attributes and abstract methods. <br>
