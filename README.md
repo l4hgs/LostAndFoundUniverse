@@ -1,6 +1,6 @@
 <div align="center">
 
-<b style="font-size: 32px;">✨🌌 L O S T &nbsp; &nbsp; &nbsp;  F O U N D &nbsp; U N I V E R S E 🌌✨</b><br>
+<b style="font-size: 64px;">✨🌌 L O S T &nbsp; &nbsp; &nbsp;  F O U N D &nbsp; U N I V E R S E 🌌✨</b><br>
 <i>A cosmic tool for navigating forgotten memories, missing items, and emotional gaps.</i>
 
 <br><br>
