@@ -129,7 +129,8 @@ To run the "Lost & Found Universe" console application, you will need the follow
  L O S T   &   F O U N D   U N I V E R S E
 ------------------------------------------
 Today's Prompt:
-"Write about a person you found that changed your path, even if briefly."
+"Write about a person you found that 
+changed your path, even if briefly."
 
             [1] Add Memory
             [2] View All Memories
