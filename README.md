@@ -1,9 +1,9 @@
 <div align="center">
 
 <h1>✨🌌 L O S T &nbsp; A N D &nbsp; F O U N D &nbsp; U N I V E R S E 🌌✨</h1><br>
-<i>A cosmic tool for navigating forgotten memories, missing items, and emotional gaps.</i>
+<i><b> A cosmic tool for navigating forgotten memories, missing items, and emotional gaps.</b> </i>
 
-<br>
+<br> <br>
 
 CS 2105 <br>
 Claire Nicole Bay <br>
@@ -91,13 +91,13 @@ To run the "Lost & Found Universe" console application, you will need the follow
 ### 🔧 Compilation and Execution
 
 1.  **Compile:** Compile all `.java` files (`Main.java`, `MemoryManager.java`, `Memory.java`, `Person.java`, `Item.java`, `Time.java`) using the Java compiler: <br>
-    ```bash
+```bash
     javac *.java
-    ```
+```
 2.  **Run:** Execute the main class: <br>
-    ```bash
+```bash
     java Main
-    ```
+```
     
 </br>
 
@@ -112,7 +112,11 @@ To run the "Lost & Found Universe" console application, you will need the follow
      .          2  1  0  5 .         *
 ==========================================
  L O S T   &   F O U N D   U N I V E R S E
------------------------------------------- 
+------------------------------------------
+Today's Prompt:
+"If you could go back to one 'lost 
+time,' when would it be and why?"
+
 [1] Add Memory
 [2] View All Memories
 [3] Mark as Found
