@@ -84,13 +84,13 @@ Polymorphism (meaning "many forms") is demonstrated in two main ways: **Method O
     │── Event.java
     └── PromptGenerator.java
 ```
-• `Main.java` - The entry point of the program. It displays the menu, handles user input, and controls the overall flow of the Lost and Found Universe. <br>
-• `Memory.java` - The abstract parent class of all memory types. It represents the core blueprint of every memory, along with its attributes and abstract methods. <br>
-• `MemoryManager.java` - The heart of the program system. It handles the storage, management, and organization of all memory entries and functions. <br>
-• `Person.java` - A subclass of Memory that represents a person you've lost touch with. <br>
-• `Item.java` - A subclass of Memory that represents an object you've lost. <br>
-• `Event.java` - A subclass of Memory that represents a memory tied to a certain event or period in time. <br>
-• `PromptGenerator.java` - Holds all the possible prompts for diary entry and returns a single prompt at random. <br>
+✦ `Main.java` - The entry point of the program. It displays the menu, handles user input, and controls the overall flow of the Lost and Found Universe. <br>
+✦ `Memory.java` - The abstract parent class of all memory types. It represents the core blueprint of every memory, along with its attributes and abstract methods. <br>
+✦ `MemoryManager.java` - The heart of the program system. It handles the storage, management, and organization of all memory entries and functions. <br>
+✦ `Person.java` - A subclass of Memory that represents a person you've lost touch with. <br>
+✦ `Item.java` - A subclass of Memory that represents an object you've lost. <br>
+✦ `Event.java` - A subclass of Memory that represents a memory tied to a certain event or period in time. <br>
+✦ `PromptGenerator.java` - Holds all the possible prompts for diary entry and returns a single prompt at random. <br>
 
 </br>
 
@@ -176,7 +176,7 @@ To **our team**, whose commitment to our growth and self-discovery made this pro
 
 Finally, to all the people, memories, and moments that remind us how deeply human it is to lose, find, and rediscover, this project is for you.
 
-**🌌 Thank you for helping us build a universe worth exploring**
+**Thank you for helping us build a universe worth exploring!🌌**
 
 <br><div align="center">Created by [Claire Nicole Bay](https://github.com/ari5en), [Alodivinno Ricco Cantos](https://github.com/l4hgs), & [Erika Ysobelle Larga](https://github.com/itskowalskiii) <br> 🌟 BSCS 2105 Students — 2025 🌟</div>
 <br>
