@@ -32,7 +32,7 @@ Through guided prompts and categorized memory entries, the program encourages us
 
 ## 💎 Object-oriented Principles
 
-This project utilizes key **Object-Oriented Programming (OOP) principles** in Java to manage different types of "memories" (**Person**, **Item**, **Time**).
+This project utilizes key **Object-Oriented Programming (OOP) principles** in Java to manage different types of "memories" (**Person**, **Item**, **Event**).
 
 ### 1. Encapsulation
 
@@ -53,14 +53,14 @@ Abstraction is implemented through the **Memory** class, which acts as a bluepri
 Inheritance is extensively used to establish a **class hierarchy** and **reuse common code**.
 
   * The **Memory** class is the **parent class** (superclass).
-  * **Person**, **Item**, and **Time** are **child classes** (subclasses) that `extend` **Memory**, inheriting its common properties (`name`, `description`, `tag`, `status`) and methods.
-  * The child classes add their own unique properties (e.g., `relationship` in `Person`, `locationLost` in `Item`, `dateLost` in `Time`) while reusing the core memory structure.
+  * **Person**, **Item**, and **Event** are **child classes** (subclasses) that `extend` **Memory**, inheriting its common properties (`name`, `description`, `tag`, `status`) and methods.
+  * The child classes add their own unique properties (e.g., `relationship` in `Person`, `locationLost` in `Item`, `dateLost` in `Event`) while reusing the core memory structure.
 
 ### 4. Polymorphism
 
 Polymorphism (meaning "many forms") is demonstrated in two main ways: **Method Overriding** and **Reference Type**.
 
-  * **Method Overriding:** Each subclass (**Person**, **Item**, **Time**) **overrides** the generic `lost()`, `found()`, and `display()` methods inherited from the **Memory** parent class to provide **category-specific logic and output**. For example, `Item.lost()` prints the location, while `Person.lost()` prints the relationship.
+  * **Method Overriding:** Each subclass (**Person**, **Item**, **Event**) **overrides** the generic `lost()`, `found()`, and `display()` methods inherited from the **Memory** parent class to provide **category-specific logic and output**. For example, `Item.lost()` prints the location, while `Person.lost()` prints the relationship.
 
   * **Polymorphic Collection:** The `memories` `ArrayList` in **MemoryManager** stores objects of the generic `Memory` type:
 
@@ -68,7 +68,7 @@ Polymorphism (meaning "many forms") is demonstrated in two main ways: **Method O
     private ArrayList<Memory> memories = new ArrayList<>();
 ```
 
-    This single collection can hold instances of any of the subclasses (`Person`, `Item`, or `Time`). When `manager.displayAll()` is called, the line `m.display()` executes the correct, overridden `display()` method for the *actual* type of the object at runtime, enabling flexible, dynamic behavior.
+    This single collection can hold instances of any of the subclasses (`Person`, `Item`, or `Event`). When `manager.displayAll()` is called, the line `m.display()` executes the correct, overridden `display()` method for the *actual* type of the object at runtime, enabling flexible, dynamic behavior.
 
 </br>
 
@@ -106,7 +106,7 @@ To run the "Lost & Found Universe" console application, you will need the follow
 
 ### 🔧 Compilation and Execution
 
-1.  **Compile:** Compile all `.java` files (`Main.java`, `MemoryManager.java`, `Memory.java`, `Person.java`, `Item.java`, `Time.java`) using the Java compiler: <br>
+1.  **Compile:** Compile all `.java` files (`Main.java`, `MemoryManager.java`, `Memory.java`, `Person.java`, `Item.java`, `Event.java`) using the Java compiler: <br>
 ```bash
     javac *.java
 ```
@@ -131,11 +131,11 @@ To run the "Lost & Found Universe" console application, you will need the follow
 Today's Prompt:
 "Write about a person you found that changed your path, even if briefly."
 
-[1] Add Memory
-[2] View All Memories
-[3] Mark as Found
-[4] Delete Memory
-[5] Exit
+            [1] Add Memory
+            [2] View All Memories
+            [3] Mark as Found
+            [4] Delete Memory
+            [5] Exit
 ------------------------------------------
 Choose: 1
 
@@ -178,9 +178,5 @@ Finally, to all the people, memories, and moments that remind us how deeply huma
 
 **🌌 Thank you for helping us build a universe worth exploring**
 
-</br>
-<div align="center">
-Created by Claire Nicole Bay, Alodivinno Ricco Cantos, & Erika Ysobelle Larga <br>
-🌟 BSCS 2105 Students — 2025 🌟
-
-</div>
+<br><div align="center">Created by [Claire Nicole Bay](https://github.com/ari5en), [Alodivinno Ricco Cantos](https://github.com/l4hgs), & [Erika Ysobelle Larga](https://github.com/itskowalskiii) <br> 🌟 BSCS 2105 Students — 2025 🌟</div>
+<br>
