@@ -117,40 +117,42 @@ To run the "Lost & Found Universe" console application, you will need the follow
 
 ## 📸 Sample Output
    ```bash
-=========================================
-   *       .    ____   ____   *     *      
-     .        / ____| / ___|       .
-             | |      \___ \          .
-    .        | |___    ___) |          .
-  *       .   \____|  |____/  .
-     .          2  1  0  5 .         *
-==========================================
- L O S T   &   F O U N D   U N I V E R S E
-------------------------------------------
+=======================================================================
+    _               _                     _  ______                    _ 
+   | |             | |                   | | |  ___|                  | |
+   | |     ___  ___| |_    __ _ _ __   __| | | |_ ___  _   _ _ __   __| |
+   | |    / _ \/ __| __|  / _` | '_ \ / _` | |  _/ _ \| | | | '_ \ / _` |
+   | |___| (_) \__ \ |_  | (_| | | | | (_| | | || (_) | |_| | | | | (_| |
+   \_____/\___/|___/\__|  \__,_|_| |_|\__,_| \_| \___/ \__,_|_| |_|\__,_|
+                        U   N   I   V   E   R   S   E
+
+=======================================================================
+-----------------------------------------------------------------------
 Today's Prompt:
-"Write about a person you found that 
-changed your path, even if briefly."
+"Write about a person you found that changed your path, even if briefly."
 
-            [1] Add Memory
-            [2] View All Memories
-            [3] Mark as Found
-            [4] Delete Memory
-            [5] Exit
-------------------------------------------
-Choose: 1
+                           [1] Add a Lost Memory
+                           [2] View All Memories
+                           [3] Mark Memory as Found
+                           [4] Delete a Memory
+                           [5] Generate a Prompt
+                           [6] Universe Stats
+                           [7] Exit
+-----------------------------------------------------------------------
+Choose: 1    
 
---- Add a Lost Memory ---
+___ Add a Lost Memory ___
 Choose a category:
-1. Person
-2. Item
-3. Event
+    [1] Person
+    [2] Item
+    [3] Event
 Choose: 1
 Name: TWICE
 Description: Made me feel loved and feel so special
 Tag: Longing
-Relationship: Best Friends
+Relationship: Bestfriends
 
-TWICE (Best Friends) was lost...
+TWICE (Bestfriends) was lost...
 
 ```
 
