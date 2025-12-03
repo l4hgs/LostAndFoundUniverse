@@ -22,7 +22,7 @@ public class Main {
              // Menu
             System.out.println("\n==============================================================================");
             System.out.println("------------------------------------------------------------------------------");
-            System.out.println("Today's Prompt:\n" + "\"" + promptGenerator.getRandomPrompt() + "\"\n");
+            System.out.println("Today's Prompt:\n\"" + promptGenerator.getRandomPrompt() + "\"\n");
             System.out.println("                           [1] Add a Lost Memory");
             System.out.println("                           [2] View All Memories");
             System.out.println("                           [3] Mark Memory as Found");
@@ -63,8 +63,8 @@ public class Main {
                         int promptChoice = 0;
                         do {
                             System.out.println("\n___ Prompt Generator ___");
-                            System.out.println("New Prompt:" + "\"" + promptGenerator.getRandomPrompt() + "\"");
-                            System.out.println("What would you like to do next?");
+                            System.out.println("New Prompt:\n\"" + promptGenerator.getRandomPrompt() + "\"");
+                            System.out.println("\nWhat would you like to do next?");
                             System.out.println("    [1] Respond (Add a Lost Memory)");
                             System.out.println("    [2] Generate a New Prompt");
                             System.out.println("    [3] Return to Main Menu");
