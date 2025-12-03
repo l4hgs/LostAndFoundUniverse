@@ -11,27 +11,26 @@ public class Main {
         int choice = 0; // declared outside of do-while so while block can read variable choice
         
         do {
+            System.out.println("==============================================================================");
+            System.out.println("    _               _                     _  ______                    _ ");
+            System.out.println("   | |             | |                   | | |  ___|                  | |");
+            System.out.println("   | |     ___  ___| |_    __ _ _ __   __| | | |_ ___  _   _ _ __   __| |");
+            System.out.println("   | |    / _ \\/ __| __|  / _` | '_ \\ / _` | |  _/ _ \\| | | | '_ \\ / _` |");
+            System.out.println("   | |___| (_) \\__ \\ |_  | (_| | | | | (_| | | || (_) | |_| | | | | (_| |");
+            System.out.println("   \\_____/\\___/|___/\\__|  \\__,_|_| |_|\\__,_| \\_| \\___/ \\__,_|_| |_|\\__,_|");
+            System.out.println("                        U   N   I   V   E   R   S   E   ");
              // Menu
-            System.out.println("\n=========================================");
-            System.out.println("   *       .    ____   ____   *     *      ");
-            System.out.println("     .        / ____| / ___|       .");
-            System.out.println("             | |      \\___ \\          .");
-            System.out.println("    .        | |___    ___) |          .");
-            System.out.println("  *       .   \\____|  |____/  .");
-            System.out.println("     .          2  1  0  5 .         *");
-            System.out.println("==========================================");
-            System.out.println(" L O S T   &   F O U N D   U N I V E R S E   ");
-            System.out.println("------------------------------------------");
-            System.out.println("\nToday's Prompt:");
-            System.out.println("\"" + promptGenerator.getRandomPrompt() + "\"\n");
-            System.out.println("        [1] Add a Lost Memory");
-            System.out.println("        [2] View All Memories");
-            System.out.println("        [3] Mark Memory as Found");
-            System.out.println("        [4] Delete a Memory");
-            System.out.println("        [5] Generate a Prompt");
-            System.out.println("        [6] Universe Stats");
-            System.out.println("        [7] Exit");
-            System.out.println("------------------------------------------");
+            System.out.println("\n==============================================================================");
+            System.out.println("------------------------------------------------------------------------------");
+            System.out.println("Today's Prompt:\n" + "\"" + promptGenerator.getRandomPrompt() + "\"\n");
+            System.out.println("                           [1] Add a Lost Memory");
+            System.out.println("                           [2] View All Memories");
+            System.out.println("                           [3] Mark Memory as Found");
+            System.out.println("                           [4] Delete a Memory");
+            System.out.println("                           [5] Generate a Prompt");
+            System.out.println("                           [6] Universe Stats");
+            System.out.println("                           [7] Exit");
+            System.out.println("------------------------------------------------------------------------------");
             System.out.print("Choose: ");
 
             try {
@@ -63,16 +62,12 @@ public class Main {
                     case 5:
                         int promptChoice = 0;
                         do {
-                            System.out.println("\nPrompt Generator");
-                            System.out.println("------------------------------------------");
-                            System.out.println("New Prompt:");
-                            System.out.println("\"" + promptGenerator.getRandomPrompt() + "\"");
-                            System.out.println("------------------------------------------");
+                            System.out.println("\n___ Prompt Generator ___");
+                            System.out.println("New Prompt:" + "\"" + promptGenerator.getRandomPrompt() + "\"");
                             System.out.println("What would you like to do next?");
                             System.out.println("    [1] Respond (Add a Lost Memory)");
                             System.out.println("    [2] Generate a New Prompt");
                             System.out.println("    [3] Return to Main Menu");
-                            System.out.println("------------------------------------------");
                             System.out.print("Choose: ");
                             
                             promptChoice = sc.nextInt();
@@ -116,11 +111,11 @@ public class Main {
     }
     private static void addLostMemory(Scanner sc, MemoryManager manager) {
         try {
-            System.out.println("\n--- Add a Lost Memory ---");
+            System.out.println("\n___ Add a Lost Memory ___");
             System.out.println("Choose a category: ");
-            System.out.println("1. Person");
-            System.out.println("2. Item");
-            System.out.println("3. Event");
+            System.out.println("    [1] Person");
+            System.out.println("    [2] Item");
+            System.out.println("    [3] Event");
             System.out.print("Choose: ");                 
             int cat = sc.nextInt();
             sc.nextLine(); 

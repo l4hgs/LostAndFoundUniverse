@@ -20,11 +20,10 @@ public class MemoryManager {
             System.out.println("No memories recorded yet.");
             return;
         }
-        System.out.println("\n=== All Memories ===");
+        System.out.println("\n___ All Memories ___");
         for (Memory m : memories) {
             // calls display() of each subclass entries (polymorphism) 
             m.display();
-            System.out.println("--------------------");
         }
     }
 
@@ -62,7 +61,7 @@ public class MemoryManager {
                     totalFound--;
                 }
                 memories.remove(i);
-                System.out.println(name + " has been deleted from the universe.");
+                System.out.println("\n" + name + " has been deleted from the universe.");
                 foundAndDeleted = true;
                 // We use break since names should be unique for this menu functionality
                 break;
@@ -74,11 +73,9 @@ public class MemoryManager {
     }
     // for case 6
     public void displayUniverseStats() {
-        System.out.println("\nUNIVERSAL INTROSPECTION");
-        System.out.println("==========================================");
+        System.out.println("\n___ Universal Introspection __");
         // Output the results using the stored variables
         System.out.println("You have found **" + totalFound + "** memories.\n **" + totalLost + "** are still missing.");
         System.out.println("Total memories recorded: " + (totalFound + totalLost) + ".");
-        System.out.println("==========================================");
     }    
 }
