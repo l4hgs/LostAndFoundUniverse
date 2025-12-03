@@ -14,19 +14,19 @@ Through guided prompts and categorized memory entries, the program encourages us
 
 ## 🌠 Features Included
 ### ✔ Memory categorization <br> 
-   Lost items, people, and moments in time <br>
-   Custom descriptions and contextual details <br>
+   ✦ Lost items, people, and moments in time <br>
+   ✦ Custom descriptions and contextual details <br>
 
 ### ✔ Status tracking <br> 
-   Mark memories as Found <br>
-   Delete specific entries <br>
-   View your universe's statistics <br>
+   ✦ Mark memories as Found <br>
+   ✦ Delete specific entries <br>
+   ✦ View your universe's stats <br>
 
 ### ✔ Prompt generator <br>
    Provides reflective questions such as: <br>
-   "If you could find one lost item today, regardless of value, what would it be?" <br>
-   "Describe a time you felt completely 'found' or at peace." <br>
-   "Who is a person you lost touch with and what is the last thing you remember them saying?" <br>
+   ✦ "If you could find one lost item today, regardless of value, what would it be?" <br>
+   ✦ "Describe a time you felt completely 'found' or at peace." <br>
+   ✦ "Who is a person you lost touch with and what is the last thing you remember them saying?" <br>
 
 </br>
 
@@ -82,16 +82,15 @@ Polymorphism (meaning "many forms") is demonstrated in two main ways: **Method O
     │── Person.java
     │── Item.java
     │── Event.java
-    │── PromptGenerator.java
-    └── README.md
+    └── PromptGenerator.java
 ```
-• `Main.java` - The entry point of the program. It displays the menu, handles user input, and controls the overall flow of the Lost and Found Universe. <br>
-• `Memory.java` - The abstract parent class of all memory types. It represents the core blueprint of every memory, along with its attributes and abstract methods. <br>
-• `MemoryManager.java` - The heart of the program system. It handles the storage, management, and organization of all memory entries and functions. <br>
-• `Person.java` - A subclass of Memory that represents a person you've lost touch with. <br>
-• `Item.java` - A subclass of Memory that represents an object you've lost. <br>
-• `Event.java` - A subclass of Memory that represents a memory tied to a certain event or period in time. <br>
-• `PromptGenerator.java` - Holds all the possible prompts for diary entry and returns a single prompt at random. <br>
+✦ `Main.java` - The entry point of the program. It displays the menu, handles user input, and controls the overall flow of the Lost and Found Universe. <br>
+✦ `Memory.java` - The abstract parent class of all memory types. It represents the core blueprint of every memory, along with its attributes and abstract methods. <br>
+✦ `MemoryManager.java` - The heart of the program system. It handles the storage, management, and organization of all memory entries and functions. <br>
+✦ `Person.java` - A subclass of Memory that represents a person you've lost touch with. <br>
+✦ `Item.java` - A subclass of Memory that represents an object you've lost. <br>
+✦ `Event.java` - A subclass of Memory that represents a memory tied to a certain event or period in time. <br>
+✦ `PromptGenerator.java` - Holds all the possible prompts for diary entry and returns a single prompt at random. <br>
 
 </br>
 
@@ -118,40 +117,42 @@ To run the "Lost & Found Universe" console application, you will need the follow
 
 ## 📸 Sample Output
    ```bash
-=========================================
-   *       .    ____   ____   *     *      
-     .        / ____| / ___|       .
-             | |      \___ \          .
-    .        | |___    ___) |          .
-  *       .   \____|  |____/  .
-     .          2  1  0  5 .         *
-==========================================
- L O S T   &   F O U N D   U N I V E R S E
-------------------------------------------
+=======================================================================
+    _               _                     _  ______                    _ 
+   | |             | |                   | | |  ___|                  | |
+   | |     ___  ___| |_    __ _ _ __   __| | | |_ ___  _   _ _ __   __| |
+   | |    / _ \/ __| __|  / _` | '_ \ / _` | |  _/ _ \| | | | '_ \ / _` |
+   | |___| (_) \__ \ |_  | (_| | | | | (_| | | || (_) | |_| | | | | (_| |
+   \_____/\___/|___/\__|  \__,_|_| |_|\__,_| \_| \___/ \__,_|_| |_|\__,_|
+                        U   N   I   V   E   R   S   E
+
+=======================================================================
+-----------------------------------------------------------------------
 Today's Prompt:
-"Write about a person you found that 
-changed your path, even if briefly."
+"Write about a person you found that changed your path, even if briefly."
 
-            [1] Add Memory
-            [2] View All Memories
-            [3] Mark as Found
-            [4] Delete Memory
-            [5] Exit
-------------------------------------------
-Choose: 1
+                           [1] Add a Lost Memory
+                           [2] View All Memories
+                           [3] Mark Memory as Found
+                           [4] Delete a Memory
+                           [5] Generate a Prompt
+                           [6] Universe Stats
+                           [7] Exit
+-----------------------------------------------------------------------
+Choose: 1    
 
---- Add a Lost Memory ---
+___ Add a Lost Memory ___
 Choose a category:
-1. Person
-2. Item
-3. Event
+    [1] Person
+    [2] Item
+    [3] Event
 Choose: 1
 Name: TWICE
 Description: Made me feel loved and feel so special
 Tag: Longing
-Relationship: Best Friends
+Relationship: Bestfriends
 
-TWICE (Best Friends) was lost...
+TWICE (Bestfriends) was lost...
 
 ```
 
@@ -177,7 +178,7 @@ To **our team**, whose commitment to our growth and self-discovery made this pro
 
 Finally, to all the people, memories, and moments that remind us how deeply human it is to lose, find, and rediscover, this project is for you.
 
-**🌌 Thank you for helping us build a universe worth exploring**
+**Thank you for helping us build a universe worth exploring!🌌**
 
 <br><div align="center">Created by [Claire Nicole Bay](https://github.com/ari5en), [Alodivinno Ricco Cantos](https://github.com/l4hgs), & [Erika Ysobelle Larga](https://github.com/itskowalskiii) <br> 🌟 BSCS 2105 Students — 2025 🌟</div>
 <br>
