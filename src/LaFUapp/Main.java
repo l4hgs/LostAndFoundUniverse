@@ -1,3 +1,6 @@
+// suggestions: add proper file handling
+// to store data
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

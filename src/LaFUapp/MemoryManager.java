@@ -24,6 +24,7 @@ public class MemoryManager {
         for (Memory m : memories) {
             // calls display() of each subclass entries (polymorphism) 
             m.display();
+            System.out.println("--------------------");
         }
     }
 
